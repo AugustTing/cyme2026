@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>逐夢中原：中原大學 115/4/11 校園開放日 (Open House)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cycuBlue: '#0A3B7E', // 中原藍 (深)
+                        cycuLightBlue: '#028ED4', // 中原藍 (淺)
+                        cycuYellow: '#FCDD30', // 中原黃
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-gray-900 bg-gray-50">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+            <div class="flex items-center">
+                <div class="h-10 w-32 bg-gray-200 flex items-center justify-center rounded text-xs text-gray-400">CYCU Logo</div>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#about" class="text-sm font-medium text-gray-700 hover:text-cycuBlue">關於活動</a>
+                <a href="#schedule" class="text-sm font-medium text-gray-700 hover:text-cycuBlue">活動日程</a>
+                <a href="#register" class="text-sm font-medium text-gray-700 hover:text-cycuBlue">線上報名</a>
+                <a href="#tour" class="text-sm font-medium text-gray-700 hover:text-cycuBlue">校園導覽</a>
+                <a href="#contact" class="text-sm font-medium text-gray-700 hover:text-cycuBlue">聯絡資訊</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-700"><i class="fa-solid fa-bars fa-lg"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="relative bg-white overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('path/to/your/poster-background.jpg');"></div> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 relative z-10">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-cycuBlue text-white">115/4/11 (六)</span>
+                    <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-cycuBlue">逐夢中原<span class="text-cycuYellow">。</span></h1>
+                    <p class="text-lg md:text-xl text-gray-700">中原大學三十三個學系聯合舉辦，邀您親自體驗校園活力，預見未來的自己！</p>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="#register" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-cycuBlue hover:bg-cycuBlue/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cycuBlue">
+                            <i class="fa-solid fa-pen-to-square mr-2"></i> 立即線上報名
+                        </a>
+                        <a href="#schedule" class="inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-base font-semibold rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cycuBlue">
+                            <i class="fa-solid fa-calendar-days mr-2"></i> 活動日程詳情
+                        </a>
+                    </div>
+                </div>
+                <div class="p-6 bg-white shadow-2xl rounded-2xl border border-gray-100 transform md:rotate-3">
+                    <img id="poster-img" src="path/to/your/poster-image.jpg" alt="逐夢中原活動海報" class="w-full h-auto rounded-xl">
+                    <p class="text-xs text-center text-gray-400 mt-2">（請替換為真實圖片連結）</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-cycuBlue">關於活動</h2>
+                <p class="mt-4 text-lg text-gray-700">經由此活動了解各學系學習內容與未來職涯發展，以及如何準備書審資料與面試指引等，歡迎當日一同來參觀校園。</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 rounded-full bg-cycuLightBlue/10 flex items-center justify-center text-cycuLightBlue">
+                        <i class="fa-solid fa-graduation-cap fa-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-cycuBlue">33 個學系探索</h3>
+                    <p class="text-gray-600 text-sm">全校三十三個學系聯合舉辦，深度了解學系特色與未來發展。</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 rounded-full bg-cycuLightBlue/10 flex items-center justify-center text-cycuLightBlue">
+                        <i class="fa-solid fa-file-signature fa-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-cycuBlue">面試指引講座</h3>
+                    <p class="text-gray-600 text-sm">升學輔導專家劉駿豪老師親自傳授，助您書審與面試脫穎而出。</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 rounded-full bg-cycuLightBlue/10 flex items-center justify-center text-cycuLightBlue">
+                        <i class="fa-solid fa-map-marked-alt fa-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-cycuBlue">校園接駁導覽</h3>
+                    <p class="text-gray-600 text-sm">每整點出發，專人帶領逛校園，宿舍、實驗室一次看個夠。</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 rounded-full bg-cycuLightBlue/10 flex items-center justify-center text-cycuLightBlue">
+                        <i class="fa-solid fa-people-group fa-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-cycuBlue">全人教育體驗</h3>
+                    <p class="text-gray-600 text-sm">感受中原大學「全人教育」精神與活潑校園氛围。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-2">
+                <h2 class="text-3xl font-extrabold text-cycuBlue">活動日程詳情</h2>
+                <p class="text-xl text-cycuBlue font-medium">115/4/11 (六) 13:00-16:00</p>
+                <p class="text-gray-600"><i class="fa-solid fa-location-dot mr-1"></i> 中原大學 智信樓 (集合地點)</p>
+            </div>
+
+            <div class="relative space-y-8">
+                <div class="absolute left-6 inset-y-0 w-0.5 bg-gray-200"></div>
+
+                <div class="relative flex items-center gap-6">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-cycuBlue text-white flex items-center justify-center font-bold relative z-10">13:00</div>
+                    <div class="flex-grow p-6 bg-gray-50 rounded-xl border border-gray-100">
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-xl font-bold text-gray-900">活動報到</h4>
+                            <span class="text-sm font-medium text-gray-500">13:00-13:10</span>
+                        </div>
+                        <p class="text-sm text-gray-700 mt-1"><i class="fa-solid fa-building mr-1"></i> 地點：智信樓</p>
+                    </div>
+                </div>
+                <div class="relative flex items-center gap-6">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-cycuLightBlue text-white flex items-center justify-center font-bold relative z-10">13:10</div>
+                    <div class="flex-grow p-6 bg-gray-50 rounded-xl border border-gray-100 space-y-2">
+                        <div class="flex items-center justify-between gap-4">
+                            <h4 class="text-lg font-bold text-gray-900">開場致詞</h4>
+                            <span class="text-sm font-medium text-gray-500">13:10-13:15</span>
+                        </div>
+                        <p class="text-sm text-gray-700"><i class="fa-solid fa-user-tie mr-1"></i> 紀登元招生長 (招生處)</p>
+                        <p class="text-sm text-gray-700"><i class="fa-solid fa-building mr-1"></i> 地點：智信樓</p>
+                    </div>
+                </div>
+                <div class="relative flex items-center gap-6">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-cycuLightBlue text-white flex items-center justify-center font-bold relative z-10">13:15</div>
+                    <div class="flex-grow p-6 bg-gray-50 rounded-xl border border-gray-100 space-y-2">
+                        <div class="flex items-center justify-between gap-4">
+                            <h4 class="text-lg font-bold text-gray-900">中原介紹</h4>
+                            <span class="text-sm font-medium text-gray-500">13:15-13:25</span>
+                        </div>
+                        <p class="text-sm text-gray-700"><i class="fa-solid fa-person-chalkboard mr-1"></i> 周文鵬老師 (通識中心)</p>
+                        <p class="text-sm text-gray-700"><i class="fa-solid fa-building mr-1"></i> 地點：智信樓</p>
+                    </div>
+                </div>
+                <div class="relative flex items-center gap-6">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-cycuLightBlue text-white flex items-center justify-center font-bold relative z-10">13:25</div>
+                    <div class="flex-grow p-6 bg-gray-50 rounded-xl border border-gray-100 space-y-2">
+                        <div class="flex items-center justify-between gap-4">
+                            <h4 class="text-lg font-bold text-gray-900">面試指引</h4>
+                            <span class="text-sm font-medium text-gray-500">13:25-13:55</span>
+                        </div>
+                        <p class="text-sm text-gray-700"><i class="fa-solid fa-user-check mr-1"></i> 劉駿豪老師 (升學輔導專家)</p>
+                        <p class="text-sm text-gray-700"><i class="fa-solid fa-building mr-1"></i> 地點：智信樓</p>
+                    </div>
+                </div>
+                <div class="relative flex items-center gap-6">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-cycuYellow text-cycuBlue flex items-center justify-center font-bold relative z-10">14:10</div>
+                    <div class="flex-grow p-6 bg-white rounded-xl border border-cycuYellow space-y-2">
+                        <div class="flex items-center justify-between gap-4">
+                            <h4 class="text-lg font-bold text-cycuBlue">場次一：學系 (A) 探索</h4>
+                            <span class="text-sm font-medium text-gray-500">14:10-15:00</span>
+                        </div>
+                        <p class="text-sm text-gray-700">學系簡介、面試及備審資料指引</p>
+                        <p class="text-sm text-gray-700"><i class="fa-solid fa-building mr-1"></i> 地點：<span class="font-medium text-cycuBlue">各系館</span></p>
+                        <p class="text-xs text-cycuBlue bg-cycuYellow/10 px-3 py-1 rounded inline-block">提醒：擇一場次參加即可</p>
+                    </div>
+                </div>
+                <div class="relative flex items-center gap-6">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-cycuYellow text-cycuBlue flex items-center justify-center font-bold relative z-10">15:10</div>
+                    <div class="flex-grow p-6 bg-white rounded-xl border border-cycuYellow space-y-2">
+                        <div class="flex items-center justify-between gap-4">
+                            <h4 class="text-lg font-bold text-cycuBlue">場次二：學系 (B) 探索</h4>
+                            <span class="text-sm font-medium text-gray-500">15:10-16:00</span>
+                        </div>
+                        <p class="text-sm text-gray-700">學系簡介、面試及備審資料指引</p>
+                        <p class="text-sm text-gray-700"><i class="fa-solid fa-building mr-1"></i> 地點：<span class="font-medium text-cycuBlue">各系館</span></p>
+                        <p class="text-xs text-cycuBlue bg-cycuYellow/10 px-3 py-1 rounded inline-block">提醒：擇一場次參加即可</p>
+                    </div>
+                </div>
+                <div class="relative flex items-center gap-6">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-gray-500 text-white flex items-center justify-center font-bold relative z-10">16:50</div>
+                    <div class="flex-grow p-6 bg-gray-50 rounded-xl border border-gray-100">
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-lg font-bold text-gray-900">回程接駁車</h4>
+                            <span class="text-sm font-medium text-gray-500">16:50</span>
+                        </div>
+                        <p class="text-sm text-gray-700 mt-1"><i class="fa-solid fa-building mr-1"></i> 地點：智信樓</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-16 p-6 bg-gray-50 rounded-2xl border border-gray-100">
+                <img id="schedule-img" src="path/to/your/schedule-image.png" alt="活動日程表格" class="max-w-full h-auto rounded-lg shadow-sm mx-auto">
+                <p class="text-xs text-center text-gray-400 mt-2">（請替換為真實圖片連結）</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="tour" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-2">
+                <h2 class="text-3xl font-extrabold text-cycuBlue">校園導覽服務</h2>
+                <p class="text-xl text-cycuBlue font-medium">12:00 即有安排至當天 16:00</p>
+                <p class="text-gray-600"><i class="fa-solid fa-location-dot mr-1"></i> 集合地點：智信樓 1 樓服務台</p>
+                <p class="text-gray-600"><i class="fa-solid fa-clock mr-1"></i> 時間：<span class="font-medium text-cycuBlue">每整點</span>出發一梯次，專人帶領。</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold text-cycuBlue flex items-center"><i class="fa-solid fa-route mr-2"></i> 導覽路線重點</h4>
+                    <ul class="space-y-3 list-inside text-gray-700">
+                        <li class="flex items-start"><i class="fa-solid fa-location-dot text-cycuLightBlue mt-1 mr-3 flex-shrink-0"></i> <span><span class="font-bold text-gray-900">第一站 | 樂學園</span> - 體會學習的快樂</span></li>
+                        <li class="flex items-start"><i class="fa-solid fa-location-dot text-cycuLightBlue mt-1 mr-3 flex-shrink-0"></i> <span><span class="font-bold text-gray-900">第二站 | 風雅頌</span> - 感受藝術的人文氛圍</span></li>
+                        <li class="flex items-start"><i class="fa-solid fa-location-dot text-cycuLightBlue mt-1 mr-3 flex-shrink-0"></i> <span><span class="font-bold text-gray-900">第三站 | 宿舍導覽</span> - 搶先看住宿生活環境
+                            <span class="text-sm text-gray-600 block pl-8 mt-1">（男生宿舍：力行宿舍；女生宿舍：恩慈宿舍、良善宿舍）</span></span>
+                        </li>
+                    </ul>
+                    <div class="flex items-center p-4 bg-white rounded-xl border border-gray-100 text-sm text-cycuBlue">
+                        <i class="fa-solid fa-shuttle-bus fa-lg mr-3"></i>
+                        <p class="flex-grow">※ 校園設有<span class="font-bold">校園導覽接駁車</span>，方便家長與同學搭乘。</p>
+                    </div>
+                </div>
+                <div class="h-96 w-full bg-gray-200 flex items-center justify-center rounded-2xl shadow-inner border border-gray-300 text-gray-500">
+                    <i class="fa-solid fa-map fa-3x mr-2"></i>
+                    [真實圖片：可替換為中原大學校園地圖或互動地圖]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="py-16 bg-cycuBlue text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-12">
+            <div class="space-y-3 max-w-2xl mx-auto">
+                <h2 class="text-4xl font-extrabold">立即線上報名<span class="text-cycuYellow">。</span></h2>
+                <p class="text-xl text-cycuLightBlue font-medium">115/4/11 (六) 13:00-16:00 | 智信樓 (集合)</p>
+                <p class="text-lg opacity-90">邀請全國高三生、家長、高中教師參加</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto bg-white p-12 rounded-3xl shadow-2xl text-gray-900 border border-gray-100">
+                <div class="p-4 bg-gray-50 rounded-xl border border-gray-100 flex items-center justify-center">
+                    <img id="reg-qr-img" src="path/to/your/register-qr.png" alt="線上報名 QR Code" class="h-48 w-48 rounded-lg shadow-sm">
+                    <p class="text-xs text-center text-gray-400 mt-2 absolute">（請替換為真實圖片連結）</p>
+                </div>
+                <div class="space-y-6 text-left">
+                    <h4 class="text-xl font-bold text-cycuBlue flex items-center"><i class="fa-solid fa-pen-nib mr-2"></i> 報名辦法：採線上報名</h4>
+                    <p class="text-gray-700 text-sm">請掃描左方 QR Code 或點擊下方按鈕填寫報名表單。本校各系資訊請參閱官網。</p>
+                    <a href="https://www.cycu.edu.tw/?page_id=2399" target="_blank" class="text-cycuBlue font-medium text-sm hover:underline"><i class="fa-solid fa-graduation-cap mr-1"></i> 中原大學各系所官網</a>
+                    <a href="#" class="inline-flex items-center justify-center w-full px-8 py-4 border border-transparent text-lg font-bold rounded-xl shadow-md text-white bg-cycuLightBlue hover:bg-cycuLightBlue/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cycuBlue">
+                        <i class="fa-solid fa-paper-plane mr-2"></i> 進入線上報名表單
+                    </a>
+                </div>
+            </div>
+
+            <div class="max-w-3xl mx-auto bg-cycuYellow/10 p-6 rounded-2xl border border-cycuYellow space-y-3 text-center text-sm text-cycuBlue">
+                <p class="font-bold flex items-center justify-center"><i class="fa-solid fa-circle-exclamation mr-2"></i> *** 為維持活動品質，各系皆有活動人數限制 ***</p>
+                <p>已額滿的學系將於表單中下架，<span class="font-bold">不提供報名與現場臨時參加</span>，謝謝。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-16 bg-white border-t border-gray-100 text-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="space-y-3 col-span-1 md:col-span-2 lg:col-span-1">
+                    <h4 class="text-xl font-bold text-cycuBlue">逐夢中原<span class="text-cycuYellow">。</span></h4>
+                    <p class="text-sm">主辦單位：中原大學招生事務處</p>
+                    <p class="text-sm">協辦單位：中原大學各學系</p>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-bold text-gray-900 flex items-center"><i class="fa-solid fa-address-book mr-2"></i> 聯絡資訊</h5>
+                    <div class="text-sm space-y-1">
+                        <p><i class="fa-solid fa-user mr-1 text-gray-400"></i> 陳慈婧小姐</p>
+                        <p><i class="fa-solid fa-phone mr-1 text-gray-400"></i> (03) 265-2091</p>
+                    </div>
+                </div>
+                <div class="space-y-4 col-span-1 md:col-span-2 lg:col-span-2 text-center md:text-left">
+                    <h5 class="font-bold text-gray-900 flex items-center justify-center md:justify-start"><i class="fa-solid fa-thumbs-up mr-2"></i> 追蹤粉絲頁</h5>
+                    <p class="text-sm text-gray-600">歡迎掃描右方 QR Code 追蹤粉絲頁，掌握最新資訊！</p>
+                    <div class="p-2 inline-block bg-gray-50 rounded-xl border border-gray-100 mt-2">
+                        <img id="fanpage-qr-img" src="path/to/your/fanpage-qr.png" alt="中原大學招生粉絲頁 QR Code" class="h-28 w-28 rounded shadow-sm mx-auto md:mx-0">
+                        <p class="text-xs text-center text-gray-400 mt-2 absolute">（請替換為真實圖片連結）</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-8 border-t border-gray-100 text-xs text-gray-400">
+                &copy; 115 中原大學. All rights reserved. | 網頁企劃及維護 XXX 研究室
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</body>
+</html>
